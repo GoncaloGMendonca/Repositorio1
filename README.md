@@ -1,5 +1,4 @@
 # Repositorio1
-<<<<<<< HEAD
 
 Nada 
 
