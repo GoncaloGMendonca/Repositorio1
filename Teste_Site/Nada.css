@@ -1,0 +1,29 @@
+*{
+
+ color: black;
+
+}
+
+
+
+body {
+    background-color: rgb(208, 157, 241);
+  } 
+
+p , h1  {color: red; 
+    text-align: center; 
+    
+}
+        
+
+#para{
+    color: blueviolet
+
+} 
+
+
+.anda{
+    color :yellow;
+    border-style: solid;
+    border-color: red;
+}
