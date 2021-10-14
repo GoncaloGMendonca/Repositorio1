@@ -17,7 +17,7 @@ body {
     
   } 
 
-p , h1  {color: red; 
+ p , h1  {color: red; 
     text-align: center; 
     /* font-size: 1000px; */
     border: 5px dashed red;
@@ -86,3 +86,75 @@ font-size: 1vw;
     src:url("Azonix.otf");
 
 }
+
+
+
+a:active {
+    text-decoration: underline;}
+
+a:link {
+    background-color: yellow;}
+
+/* 
+    .flexbox {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: stretch;
+  box-sizing: border-box;
+  margin: 0px -17.5px;
+}
+
+.item {
+  box-sizing: border-box;
+  width: 50%;
+  margin-bottom: 21px;
+  padding: 0px 17.5px;
+}
+
+.content {
+  color: #242424;
+  background-color: #1bbefe;
+  font-weight: 600;
+  text-align: center;
+  box-sizing: border-box;
+  height: 100%;
+  padding: 10px;
+} */
+
+
+
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 300px;
+   
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+    width: auto;
+    height: 100px;
+    color: grey;
+    background-color: yellow;
+    }
+
+
+    @media only screen and (max-width: 600px) {
+        body {
+          background-color: red;
+        }
+      }
